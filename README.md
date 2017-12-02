@@ -9,3 +9,5 @@ Litecoin
 Ripple
 Monero
 Neo
+
+[<img src="https://i.imgur.com/vaKeS5q.png">]
