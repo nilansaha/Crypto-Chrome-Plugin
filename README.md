@@ -10,4 +10,4 @@ Ripple
 Monero
 Neo
 
-[<img src="https://i.imgur.com/vaKeS5q.png">]
+<img src="https://i.imgur.com/vaKeS5q.png">
