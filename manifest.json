@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "content_scripts": [{
+     "js": ["math.js"],
+     "matches": ["http://*/*", "https://*/*"]
+   }],
+
+  "name": "Crypto Plugin",
+  "description": "Chrome Plugin to display current rates of famous cryptos",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs", "<all_urls>",
+    "https://maxcdn.bootstrapcdn.com/*"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
